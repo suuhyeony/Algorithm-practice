@@ -7,3 +7,12 @@
 ### 2. Algorithm-lecture
 
 - Big-O Notation
+- Array vs Object
+- How to solve
+
+#### Patterns
+
+- 1. Frequency Counter
+- 2. Multiple Pointers
+- 3. Sliding Window
+- 4. Recursion
