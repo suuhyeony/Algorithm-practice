@@ -1,7 +1,8 @@
 function insertionSort(arr) {
+  let currentVal;
   for (let i = 1; i < arr.length; i++) {
-    let currentVal = arr[i];
-    for (let j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
+    currentVal = arr[i];
+    for (var j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
       // 큰 값을 뒤로 보냄
       arr[j + 1] = arr[j];  
     }
@@ -9,4 +10,29 @@ function insertionSort(arr) {
     arr[j + 1] = currentVal; 
   }
   return arr;
+}
+
+// the wild west
+function insertionSort(arr, comparator) {
+  if (typeof comparator !== 'function') {
+    let currentVal;
+    for (let i = 1; i < arr.length; i++) {
+      currentVal = arr[i];
+      for (var j = i - 1; j >= 0 && arr[j] > currentVal; j--) {
+        arr[j + 1] = arr[j];
+      }
+      arr[j + 1] = currentVal;
+    }
+    return arr;
+  } else {
+    let currentVal;
+    for (let i = 1; i < arr.length; i++) {
+      currentVal = arr[i];
+      for (var j = i - 1; j >= 0 && comparator(arr[j], currentVal) > 0; j--) {
+        arr[j + 1] = arr[j];
+      }
+      arr[j + 1] = currentVal;
+    }
+    return arr;
+  }
 }
