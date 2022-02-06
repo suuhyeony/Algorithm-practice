@@ -85,17 +85,9 @@ function merge(arr1, arr2, comparator) {
 
 // the wild west 49
 function mergeSort(arr, comparator) {
-  if (typeof comparator !== 'function') {
-    if (arr.length <= 1) return arr;
-    let mid = Math.floor(arr.length / 2);
-    let leftArr = mergeSort(arr.slice(0, mid));
-    let rightArr = mergeSort(arr.slice(mid));
-    return merge(leftArr, rightArr);
-  } else {
-    if (arr.length <= 1) return arr;
-    let mid = Math.floor(arr.length / 2);
-    let leftArr = mergeSort(arr.slice(0, mid), comparator);
-    let rightArr = mergeSort(arr.slice(mid), comparator);
-    return merge(leftArr, rightArr, comparator);
-  }
+  if (arr.length <= 1) return arr;
+  let mid = Math.floor(arr.length / 2);
+  let leftArr = mergeSort(arr.slice(0, mid), comparator);
+  let rightArr = mergeSort(arr.slice(mid), comparator);
+  return merge(leftArr, rightArr, comparator);
 }
