@@ -10,7 +10,7 @@
 - Array vs Object
 - How to solve
 
-#### Patterns
+#### Algorithm-Patterns
 
 - 1. Frequency Counter
 - 2. Multiple Pointers
@@ -27,3 +27,12 @@
   - merge sort
   - quick sort
   - radix sort
+
+#### Data Structures
+
+- 1. Singly Linked Lists
+  - push / pop
+  - shift / unshift
+  - get / set
+  - insert / remove
+  - reverse
