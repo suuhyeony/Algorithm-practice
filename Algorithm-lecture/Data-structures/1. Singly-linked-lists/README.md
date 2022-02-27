@@ -128,3 +128,12 @@
   - 다음 턴을 위해 변수 업데이트
     - prev를 current로 업데이트
     - current를 next로 업데이트
+
+### big O
+
+: 삽입과 삭제의 경우, 단방향 연결리스트가 Array에 비해 우수하다.
+
+- Insertion: O(1)
+- Removal: 제거하는 위치에 따라 O(1) or O(N)
+- Searching: O(N)
+- Access: O(N)
