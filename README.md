@@ -51,4 +51,8 @@
 
 - 4. Queue
 
-  - push / pop
+  - enqueue / dequeue
+
+- 5. Binary Search Tree
+  - insert
+  - find
