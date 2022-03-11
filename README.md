@@ -54,5 +54,10 @@
   - enqueue / dequeue
 
 - 5. Binary Search Tree
+
   - insert
   - find
+
+- 6. Tree Traversal
+  - Breadth First Search
+  - Depth First Search
