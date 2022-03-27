@@ -59,5 +59,11 @@
   - find
 
 - 6. Tree Traversal
+
   - Breadth First Search
   - Depth First Search
+
+- 7. Binary Heaps
+  - insert / remove
+  - priority queue
+    - enqueue / dequeue

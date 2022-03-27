@@ -30,4 +30,8 @@
 
 - 6. Tree Traversal
   - Breadth First Search
-  - Depth First Search
+  - Depth First
+- 7. Binary Heaps
+  - insert / remove
+  - priority queue
+    - enqueue / dequeue
