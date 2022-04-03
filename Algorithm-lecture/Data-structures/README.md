@@ -32,6 +32,12 @@
   - Breadth First Search
   - Depth First
 - 7. Binary Heaps
+
   - insert / remove
   - priority queue
     - enqueue / dequeue
+
+- 8. Hash Tables
+  - hash function
+  - get / set
+  - keys / values
