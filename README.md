@@ -70,6 +70,13 @@
     - enqueue / dequeue
 
 - 8. Hash Tables
+
   - hash function
   - get / set
   - keys / values
+
+- 9. Graphs
+  - Adjacency matrix
+  - Adjacency list
+    - add vertex/edge
+    - remove vertex/edge
